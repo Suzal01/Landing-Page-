@@ -1,0 +1,19 @@
+.footer {
+    position: absolute;
+    width: 100%;
+    top:3330px;
+    z-index: 1;
+    bottom: 100px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 20rem;
+    background-color: #f1f1f1;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+  }
+  .main{
+    z-index: 1;
+  }

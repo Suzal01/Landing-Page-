@@ -1,0 +1,75 @@
+@import './Eye.css';
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ccf001;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 8rem;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .eyes-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+  }
+  
+  .eye-container {
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+  }
+  
+  .eye {
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pupil {
+    width: 25%;
+    height: 25%;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
