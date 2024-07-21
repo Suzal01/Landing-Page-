@@ -11,7 +11,7 @@ const Navbar = () => {
 
   useEffect(() => {
     if (loading) {
-      document.body.style.overflow = 'hidden'; // Disable scrolling
+      document.body.style.overflow = 'hidden'; 
       const interval = setInterval(() => {
         setPercentage((prev) => {
           if (prev < 100) {
@@ -21,8 +21,8 @@ const Navbar = () => {
             setLoading(false);
             setTimeout(() => {
               setLoadingCompleted(true);
-              document.body.style.overflow = 'auto'; // Enable scrolling
-            }, 1000); // Wait for the animation to complete
+              document.body.style.overflow = 'auto'; 
+            }, 1000); 
             return prev;
           }
         });
