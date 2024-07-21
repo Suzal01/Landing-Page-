@@ -50,6 +50,8 @@ const Navbar = () => {
           <div className="absolute bottom-8 left-8 text-3xl font-bold">Loading:</div>
           <div className="absolute bottom-8 right-8 text-6xl font-bold">{percentage}%</div>
         </div>
+
+        {/*header*/}
           <div className={`${loading ? 'hidden' : 'block'}`}>
     <div className="h-screen flex flex-col animate-gradient">
       <header className=" flex justify-between items-center p-6">
@@ -76,8 +78,9 @@ const Navbar = () => {
         <div className="left absolute  justify-center right-5 w-30 h-20">
               <img src="0.png" alt="Chatting People" />
             </div>
-        
         </main>
+
+        {/*footer*/}
         <footer className="flex justify-end items-center p-6 border-t border-gray-400">
         <button className="ml-auto text-lg px-6 py-2 border border-black text-white bg-black font-bold rounded-full flex items-center hover:bg-white hover:text-black justify-center animate-pulse">
           Get Started
